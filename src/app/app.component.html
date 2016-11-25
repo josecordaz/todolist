@@ -1,3 +1,21 @@
-<h1>
-  {{title}}
-</h1>
+<!--div class="container"-->
+  <h1>
+    {{title}}
+  </h1>
+  <!--div class="row">
+    <div class="col-xs-6">
+        <div-->
+          <label for="task">Task:</label>
+          <input type="text" id="task" [(ngModel)]='task' name='task'/>
+          <button class="btn btn-sm btn-success" (click)='addTask()'>Add</button>
+        <!--/div>
+    </div>
+    <div class="col-xs-6"-->
+      <ul class="heroes">
+        <li *ngFor='let taske of list; let i = index'>
+          <span class="badge">{{i}}</span>{{taske}}
+        </li>
+      </ul>
+    <!--/div>
+  </div>
+</div-->
