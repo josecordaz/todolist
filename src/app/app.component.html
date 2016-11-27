@@ -1,4 +1,4 @@
-<!--div class="container"-->
+<div class="container">
   <h1>
     {{title}}
   </h1>
@@ -17,5 +17,9 @@
         </li>
       </ul>
     <!--/div>
-  </div>
-</div-->
+  </div-->
+  <styled-checkbox [(ngModel)]='counter' text="Door"></styled-checkbox>{{counter}}
+  <br>
+  <br>
+  <styled-checkbox text="Door" disabled="true"></styled-checkbox>
+</div>

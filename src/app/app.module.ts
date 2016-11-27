@@ -5,9 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { CounterInputComponent } from './custom-counter.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterInputComponent
   ],
   imports: [
     BrowserModule,

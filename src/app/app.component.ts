@@ -10,6 +10,8 @@ export class AppComponent {
   title = 'To do list!';
   task = '';
   list = ['Uno']; 
+
+  counter  = true;
   
   addTask():void{
     this.list.push(this.task);
