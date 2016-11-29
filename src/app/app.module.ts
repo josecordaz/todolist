@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { CounterInputComponent } from './custom-counter.component';
+import { CustomListComponent } from './custom-list/custom-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CounterInputComponent
+    CounterInputComponent,
+    CustomListComponent
   ],
   imports: [
     BrowserModule,
